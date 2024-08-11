@@ -1,0 +1,29 @@
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+.mw-max-content {
+  max-width: max-content;
+}
+
+.results {
+  max-width: 80ch;
+}
+
+@include media-breakpoint-up(sm) {
+  .container {
+    padding: 0;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .genre-selection {
+    max-width: max-content;
+  }
+}
+
+.darkgold {
+  color: $yellow-600;
+}
+
+.no-border {
+  border: none;
+}
