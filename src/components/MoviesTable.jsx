@@ -10,7 +10,7 @@ class MoviesTable extends Component {
     {
       propertyPath: 'title',
       label: 'Title',
-      content: (movie) => (
+      render: (movie) => (
         <Link to={`/movies/${movie._id}`}>{movie.title}</Link>
       ),
     },
