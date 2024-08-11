@@ -15,6 +15,17 @@ Features:
 - Uses React Router DOM for navigation
 - Includes a reusable navigation bar component
 
+  
+ Requirements:
+
+- Node.js (version 14 or higher)
+- npm (version 6 or higher)
+- React (version 17 or higher)
+- React Router DOM (version 5 or higher)
+- Bootstrap (version 4 or higher)
+
+
+
 Installation and Setup:
 
 1. Clone the repository using `git clone
